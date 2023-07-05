@@ -1,0 +1,146 @@
+.header-shadow {
+  box-shadow: 0px 0px 9px 0px gray;
+}
+
+.common {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  padding: 10px 0;
+}
+
+.header-left {
+  width: 50%;
+  display: flex;
+}
+
+input {
+  margin-left: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  position: relative;
+}
+
+.search {
+  font-size: 23px;
+  position: absolute;
+  top: 18px;
+  left: 560px;
+  cursor: pointer;
+}
+.search-name {
+  position: fixed;
+  top: 30;
+  left: 200px;
+  z-index: 2;
+  background-color: white;
+}
+
+.header-right {
+  width: 100%;
+  text-align: end;
+}
+.upload-video_overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.6;
+}
+.upload-video_modal {
+  position: fixed;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 400px;
+  height: 260px;
+  top: calc((100% - 260px) / 2);
+  left: calc((100% - 400px) / 2);
+  z-index: 9;
+  text-align: center;
+}
+.upload-video_option {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.upload-video_option span {
+  font-size: 18px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.upload-video_option span.active {
+  border-bottom: 3px solid black;
+  font-weight: bold;
+}
+.computer-file input {
+  position: relative;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.computer-file span {
+  position: absolute;
+  bottom: 65px;
+  left: 38px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.video input {
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.fa-ellipsis-vertical {
+  border: 2px solid transparent;
+  padding: 8px 12px 11px;
+  border-radius: 3px;
+  margin-left: 4px;
+  cursor: pointer;
+  background: linear-gradient(white 0 0) padding-box,
+    linear-gradient(to right, #fb3570, #9c20aa) border-box;
+}
+
+button {
+  background-color: #00de34;
+  background-image: linear-gradient(90deg, #a23364 40%, #9c04a1 100%);
+  padding: 14px 13px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+
+  &-logo {
+    width: 34px;
+    border: 2px solid red;
+  }
+
+  &-car {
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  &-profile {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+}
+.search-name {
+  padding-left: 20px;
+  padding-right: 50px;
+}
