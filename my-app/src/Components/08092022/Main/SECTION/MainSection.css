@@ -1,0 +1,32 @@
+.MainSection {
+  margin-top: 50px;
+}
+
+.section_video-text {
+  border-bottom: 1px solid gray;
+  padding: 10px 20px;
+}
+
+.video-text {
+  margin: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.video-text.active {
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.vdocontent {
+  margin-top: 15px;
+}
+
+.vidsize {
+  display: inline-block;
+  margin: 15px;
+}
+iframe {
+    border-radius: 15px;
+}

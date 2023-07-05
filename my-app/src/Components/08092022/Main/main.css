@@ -1,0 +1,99 @@
+.main {
+  margin: 20px 0;
+}
+
+/*THIS CSS SHOULD BE WRITTEN IN <Header.scss>
+.img {
+    width: 100%;
+
+    &-logo {
+        width: 25px;
+        border: 2px solid red;
+    }
+
+    &-car {
+        height: 250px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    &-profile {
+        width: 90px;
+        height: 90px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+}*/
+.img{
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+.banner {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.fa-square-pen {
+  position: absolute;
+  color: black;
+  background-color: red;
+  font-size: 40px;
+  right: 170px;
+  top: 270px;
+  cursor: pointer;
+}
+.banner-list {
+  position: fixed;
+  top: 200px;
+  left: 700px;
+  background-color: gray;
+  z-index: 2;
+}
+.image-list {
+  width: 180px;
+  height: 55px;
+  border: 2px solid black;
+}
+.banner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-color: black;
+}
+.save {
+  padding: 10px 75px;
+}
+
+.section1 {
+  display: flex;
+}
+
+.left-section1 {
+  position: absolute;
+  top: 298px;
+  left: 180px;
+  display: flex;
+}
+
+.right-section1 {
+  width: 100%;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.left-section1_text {
+  margin: 40px 15px;
+}
